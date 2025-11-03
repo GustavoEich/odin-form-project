@@ -1,0 +1,30 @@
+* {
+    font-family: Arial;
+    /* font-weight: 700; */
+}
+
+label {
+    font-size: 13px;
+    display: block;
+    color: rgb(77, 77, 77);
+    letter-spacing: 1px;
+}
+
+input {
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: rgb(238, 238, 238);
+    width: 200px;
+    height: 20px;
+}
+
+input:focus {
+    box-shadow: 2px 2px 3px gray;
+    border-color: blue;
+    border-width: 1px;
+    outline: none;
+}
+
+input:invalid {
+    border-color: red;
+}
